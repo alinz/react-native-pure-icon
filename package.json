@@ -1,0 +1,29 @@
+{
+  "name": "react-native-pure-icon",
+  "version": "0.0.1",
+  "description": "Using Pure JS for displaying icon",
+  "main": "libs",
+  "directories": {
+    "example": "example",
+    "lib": "libs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:alinz/react-native-pure-icon.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "ios",
+    "pure-icon"
+  ],
+  "author": "Ali Najafizadeh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alinz/react-native-pure-icon/issues"
+  },
+  "homepage": "https://github.com/alinz/react-native-pure-icon"
+}
