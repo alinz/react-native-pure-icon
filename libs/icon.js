@@ -1,4 +1,4 @@
-import React, { Component } from 'react-native';
+import React, { Component, Text } from 'react-native';
 
 export default class Icon extends Component {
   constructor(props, context) {
