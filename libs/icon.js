@@ -8,7 +8,7 @@ export default class Icon extends Component {
   render() {
     const { type, font, style } = this.props;
     return (
-      <Text style={[style, { fontSize: size, fontFamily: font }]}>
+      <Text style={[style, { fontFamily: font }]}>
         {type}
       </Text>
     );
