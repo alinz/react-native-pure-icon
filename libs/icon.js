@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Text } from 'react-native';
 
+import PropTypes from 'prop-types';
+
 export default class Icon extends Component {
   constructor(props, context) {
     super(props, context);
@@ -8,16 +10,12 @@ export default class Icon extends Component {
 
   render() {
     const { type, font, style } = this.props;
-    return (
-      <Text style={[style, { fontFamily: font }]}>
-        {type}
-      </Text>
-    );
+    return <Text style={[style, { fontFamily: font }]}>{type}</Text>;
   }
 }
 
 Icon.propTypes = {
-  type: React.PropTypes.string.isRequired,
-  font: React.PropTypes.string.isRequired,
-  style: React.PropTypes.any
+  type: PropTypes.string.isRequired,
+  font: PropTypes.string.isRequired,
+  style: PropTypes.any,
 };

@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/alinz/react-native-pure-icon/issues"
   },
-  "homepage": "https://github.com/alinz/react-native-pure-icon"
+  "homepage": "https://github.com/alinz/react-native-pure-icon",
+  "dependencies": {
+    "prop-types": "^15.6.0"
+  }
 }
